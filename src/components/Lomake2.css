@@ -1,0 +1,98 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+.vaihe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.info {
+  font-size: 15px;
+  border: none;
+  margin-top: 5px;
+}
+
+.info-active {
+  font-size: 15px;
+  border: none;
+  color: #019e89;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+text {
+  font-size: 22px;
+  border-bottom: solid 3px;
+  border-color: rgb(172, 172, 172);
+  color: rgb(172, 172, 172);
+  cursor: pointer;
+}
+
+.text-active {
+  color: #019e89;
+  border-color: #019e89;
+}
+
+.otsikko {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lomake {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px rgb(222, 222, 222);
+}
+
+.screen {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px rgb(222, 222, 222);
+}
+
+.tunnit2 {
+  width: 220px;
+}
+
+.tunnit1 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px rgb(222, 222, 222);
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.links2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end !important;
+  padding-top: 40px;
+}

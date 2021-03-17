@@ -1,0 +1,10 @@
+.wrapper{
+  border: 2px solid #d9edbc;
+}
+
+.toolbar{
+  background-color: #e9ecef;
+}
+.breadcrumbItem{
+  flex: 1 1 auto;
+}
